@@ -1,0 +1,5 @@
+{% if messages %}
+    {% for message in messages %}
+        {% if message.tags %} <script>allert("{{ message }}")</script> {% endif %}
+    {% endfor %}
+{% endif %}
